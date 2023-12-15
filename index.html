@@ -9,7 +9,7 @@
   </head>
   <body>
     <div id="unity-container" class="unity-desktop">
-      <canvas id="unity-canvas" width=1920 height=1038 tabindex="-1"></canvas>
+      <canvas id="unity-canvas" width=1280 height=692 tabindex="-1"></canvas>
       <div id="unity-loading-bar">
         <div id="unity-logo"></div>
         <div id="unity-progress-bar-empty">
@@ -57,11 +57,11 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/PoemPipeline7.loader.js";
+      var loaderUrl = buildUrl + "/PoemPipeline8.loader.js";
       var config = {
-        dataUrl: buildUrl + "/PoemPipeline7.data.unityweb",
-        frameworkUrl: buildUrl + "/PoemPipeline7.framework.js.unityweb",
-        codeUrl: buildUrl + "/PoemPipeline7.wasm.unityweb",
+        dataUrl: buildUrl + "/PoemPipeline8.data.unityweb",
+        frameworkUrl: buildUrl + "/PoemPipeline8.framework.js.unityweb",
+        codeUrl: buildUrl + "/PoemPipeline8.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "road_poetry",
@@ -94,8 +94,8 @@
       } else {
         // Desktop style: Render the game canvas in a window that can be maximized to fullscreen:
 
-        canvas.style.width = "1920px";
-        canvas.style.height = "1038px";
+        canvas.style.width = "1280px";
+        canvas.style.height = "692px";
       }
 
       loadingBar.style.display = "block";
